@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafes in Hyderabad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        .cafe {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cafe img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 1rem;
+        }
+        .cafe-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .cafe-info h3 {
+            margin: 0 0 0.5rem;
+        }
+        .cafe-info p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafes in Hyderabad</h1>
+    </header>
+    <main>
+        <div class="cafe">
+            <img src="image_url_1" alt="Roastery Coffee House">
+            <div class="cafe-info">
+                <h3>Roastery Coffee House</h3>
+                <p>Place: Banjara Hills</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_2" alt="Autumn Leaf Cafe">
+            <div class="cafe-info">
+                <h3>Autumn Leaf Cafe</h3>
+                <p>Place: Jubilee Hills</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_3" alt="D Neighbourhood Cafe">
+            <div class="cafe-info">
+                <h3>D Neighbourhood Cafe</h3>
+                <p>Place: L. B. Nagar</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_4" alt="The Hole In The Wall Cafe">
+            <div class="cafe-info">
+                <h3>The Hole In The Wall Cafe</h3>
+                <p>Place: Jubilee Hills</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_5" alt="Cafe Niloufer">
+            <div class="cafe-info">
+                <h3>Cafe Niloufer</h3>
+                <p>Place: Lakdikapul</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_6" alt="Motown Stories Cafe">
+            <div class="cafe-info">
+                <h3>Motown Stories Cafe</h3>
+                <p>Place: Gachibowli</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_7" alt="Theory Patisserie & Cafe">
+            <div class="cafe-info">
+                <h3>Theory Patisserie & Cafe</h3>
+                <p>Place: Jubilee Hills</p>
+            </div>
+        </div>
+        <div class="cafe">
+            <img src="image_url_8" alt="Van Lavino Cafe & Patisserie">
+            <div class="cafe-info">
+                <h3>Van Lavino Cafe & Patisserie</h3>
+                <p>Place: Jubilee Hills</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
